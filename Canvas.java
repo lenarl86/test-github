@@ -28,7 +28,7 @@ public class Canvas
     public static Canvas getCanvas()
     {
         if(canvasSingleton == null) {
-            canvasSingleton = new Canvas("Tortue LOGO", 600, 600, 
+            canvasSingleton = new Canvas("Tortue LOGO", 400, 600, 
                                          Color.white);
         }
         canvasSingleton.setVisible(true);
